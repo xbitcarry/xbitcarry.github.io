@@ -1,11 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
 body {
 	background-color: black;
 	color: darkgreen;
+   margin: 0;
 }
 
 .contenedor{
-	display:flex;
-	justify-content:space-between;
-	align-items: center;
-	width: 100%;
+   display: flex;
+   flex-direction: column;
 }
+
+.header{
+   display: flex;
+   font-family: 'Bungee Tint';
+   align-items: center;
+   justify-content: center;
+}
+
+.mennav{
+   display: flex;
+   justify-content: flex-start;
+}
+
+/* Contenedor del menú */
+.navbar {
+    background-color: #333; /* Color de fondo oscuro */
+    padding: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Alineación horizontal con Flexbox */
+.menu {
+    list-style: none; /* Quita viñetas */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Centra los elementos */
+    align-items:flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de los elementos de lista */
+.menu li {
+    margin: 0 15px;
+}
+
+/* Estilos de los enlaces */
+.menu a {
+    text-decoration: none; /* Quita subrayado */
+    color: white; /* Color de texto */
+    font-weight: bold;
+    transition: color 0.3s; /* Transición suave */
+}
+
+/* Efecto al pasar el ratón (hover) */
+.menu a:hover {
+    color: #f4a261; /* Cambio de color */
+}
+
+
+
+.article{
+
+}
+
+.footer{
+
+}
+
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
